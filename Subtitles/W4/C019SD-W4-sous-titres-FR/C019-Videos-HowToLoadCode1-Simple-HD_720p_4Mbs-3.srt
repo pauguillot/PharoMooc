@@ -1,94 +1,94 @@
 1
 00:00:02,140 --> 00:00:05,110
-J'aimerais vous montrer
-comment on charge du code dans Pharo.
+Me gustaría mostrarte cómo
+cargamos código en Pharo.
 
 2
 00:00:06,610 --> 00:00:08,250
-Je vais aller sur Safari pour voir.
+Voy al Navegador para ver.
 
 3
 00:00:09,740 --> 00:00:14,430
-Je veux charger le Counter
-qui a été sauvé dans le projet
+Quiero cargar el Counter
+que se ha guardado en el proyecto
 
 4
 00:00:14,597 --> 00:00:16,070
-Pharo MOOC, sur Smalltalk Hub.
+Pharo MOOC, en Smalltalk Hub.
 
 5
 00:00:16,237 --> 00:00:19,160
-Là, il me montre le
-repository, je le copie.
+Aquí muestra el repositorio,
+Lo copio.
 
 6
 00:00:19,740 --> 00:00:22,460
-Je viens ici. Je fais
+Vengo aquí. Hago
 Monticello Browser +Repository Http.
 
 7
 00:00:27,340 --> 00:00:29,520
-Et je "paste" la définition.
+Y "pego" la definición.
 
 8
 00:00:29,687 --> 00:00:33,650
-Là, je fais OK. Et maintenant
-qu'est-ce que le système va me montrer?
+Aquí, hago clic en Aceptar. Y ahora
+¿Qué mostrará el sistema?
 
 9
 00:00:33,817 --> 00:00:36,850
-Il va me montrer "Oui, il y a
-une version - bon, là il n'y
+Aparecerá "Sí, hay una
+versión - lamentablemente
 
 10
 00:00:37,017 --> 00:00:39,040
-en avait qu'une malheureusement
-- une version de Pharo counter."
+sólo hay una -
+una versión de Pharo counter ".
 
 11
 00:00:39,207 --> 00:00:42,280
-Là, je peux faire un
-merge qui va faire un Diff entre
+Aqui, puedo hacer una fusión que
+realizará una diferencia entre
 
 12
 00:00:42,447 --> 00:00:44,350
-ce qui va être chargé et
-ce qui est dans l'image.
+lo que se cargará y
+lo que está en la imagen.
 
 13
 00:00:44,517 --> 00:00:47,880
-Là, il n'y a que des
-additions, mais si on avait des
+Aquí, solo hay adiciones,
+pero si hubiera
 
 14
 00:00:48,047 --> 00:00:50,040
-modifications de méthodes
-qui existent déjà, il me le
+modificaciones de los métodos 
+existentes, me los
 
 15
 00:00:50,207 --> 00:00:52,640
-montrerait et me
-ferait un Diff interactif.
+mostraría y haría
+una diferencia interactiva
 
 16
 00:00:53,050 --> 00:00:55,260
-Sinon, ce que je peux faire,
-je peux faire un Load, à ce
+También puedo hacer un Load,
+en este momento,
 
 17
 00:00:55,427 --> 00:00:57,630
-moment-là, il va écraser les
-choses qui sont dans l'image.
+sobrescribirá las cosas
+que están en la imagen.
 
 18
 00:00:57,797 --> 00:01:01,410
-MyCounter, il n'y avait que ça,
-donc je peux faire Load et voilà.
+MyCounter, solo había esto,
+así que puedo hacer Load y aquí está.
 
 19
 00:01:03,020 --> 00:01:07,830
-Maintenant j'ai
- chargé mon code, je fais
+Ahora he cargado mi código,
+hago
 
 20
 00:01:08,360 --> 00:01:09,270
@@ -96,10 +96,9 @@ Counter.
 
 21
 00:01:13,700 --> 00:01:17,690
-Si je vais dans Counter,
-mes tests sont verts, je peux
+Si voy a Counter, mis pruebas
+están verdes, puedo
 
 22
 00:01:17,857 --> 00:01:18,520
-commencer à travailler.
-
+empezar a trabajar.
