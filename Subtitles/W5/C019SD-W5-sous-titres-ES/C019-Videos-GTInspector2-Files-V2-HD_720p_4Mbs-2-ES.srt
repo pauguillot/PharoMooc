@@ -1,12 +1,12 @@
 1
 00:00:02,030 --> 00:00:03,770
 En este video, me gustaria
-mostrarle una muy linda
+mostrarle una faceta
 
 2
 00:00:03,937 --> 00:00:06,700
-faceta de Pharo,
-su inspector
+muy bonita de Pharo,
+su inspector.
 
 3
 00:00:07,170 --> 00:00:10,610
@@ -55,8 +55,8 @@ Aquí tengo un inspector.
 
 13
 00:00:45,430 --> 00:00:47,690
-Este es el nuevo inspector Pharo
-desarrollado
+Este es el nuevo inspector de 
+Pharo desarrollado
 
 14
 00:00:47,857 --> 00:00:51,730
@@ -72,7 +72,7 @@ Comencemos por mirar la pestaña
 
 17
 00:00:58,330 --> 00:00:59,640
-llamado "Raw",
+llamada "Raw",
 que significa crudo.
 
 18
@@ -82,7 +82,7 @@ inspector.
 
 19
 00:01:04,047 --> 00:01:04,850
-¿Que va a mostrarme?
+¿Que me mostrará?
 
 20
 00:01:05,017 --> 00:01:08,000
@@ -228,7 +228,7 @@ cuando estás en el flujo
 
 50
 00:02:55,590 --> 00:03:00,440
-de navegación, cuando necesitas saber
+de navegación, cuando necesitas conocer
 directamente sin abrir
 
 51
@@ -237,7 +237,7 @@ otro navegador
 
 52
 00:03:01,650 --> 00:03:03,140
-Pero los más importantes son
+Pero las más importantes son
 esas otras pestañas.
 
 53
