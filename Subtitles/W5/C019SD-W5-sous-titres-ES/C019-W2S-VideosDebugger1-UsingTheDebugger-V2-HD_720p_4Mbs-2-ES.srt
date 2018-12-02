@@ -20,7 +20,7 @@ y interactuar con los objetos.
 5
 00:00:14,080 --> 00:00:16,030
 Entonces quiero una vez
-mas hacer los
+mas repetir los
 
 6
 00:00:16,197 --> 00:00:18,820
@@ -29,7 +29,7 @@ y hecho juntos del
 
 7
 00:00:19,000 --> 00:00:21,220
-contador, por lo que uso Monticello,
+contador, por lo que utilizaré Monticello,
 
 8
 00:00:21,387 --> 00:00:25,240
@@ -42,17 +42,17 @@ veo que hay un package Counter.
 
 10
 00:00:27,050 --> 00:00:29,010
-También me permite explicar
+Lo que me permite explicar
 
 11
 00:00:29,177 --> 00:00:31,560
-esta funciónalidad aquí. 
+esta funciónalidad, aquí. 
 Para estar seguro de que
 
 12
 00:00:31,727 --> 00:00:35,300
 este es el paquete correcto,
-Puedo navegar, es decir
+Puedo navegar, es decir,
 
 13
 00:00:35,560 --> 00:00:37,650
@@ -67,12 +67,12 @@ un paquete llamado
 15
 00:00:40,000 --> 00:00:42,500
 MyCounter, que contiene
-2 clases, contador y
+2 clases, Counter y
 
 16
 00:00:42,667 --> 00:00:44,830
 CounterTest, y que si miro
-todas las operaciones
+en todas las operaciones
 
 17
 00:00:45,000 --> 00:00:48,130
@@ -92,7 +92,7 @@ el paquete
 20
 00:00:53,347 --> 00:00:54,490
 que quiero cargar, voy a ir
-hacer Load.
+a hacer Load.
 
 21
 00:00:58,300 --> 00:01:02,160
@@ -102,11 +102,11 @@ en la clase Contador
 22
 00:01:08,200 --> 00:01:11,710
 Para la clase Counter, las pruebas
-son verdes, así que podamos empezar.
+son verdes, así que podemos empezar.
 
 23
 00:01:15,000 --> 00:01:16,680
-Así que me gustaría mostrarte
+Ahora que me gustaría mostrarte
 
 24
 00:01:16,847 --> 00:01:19,470
@@ -116,7 +116,7 @@ ejecutar una
 25
 00:01:19,637 --> 00:01:22,260
 expresión paso a paso,
-e ir o no en las
+e ir o no a las
 
 26
 00:01:22,427 --> 00:01:23,720
@@ -178,7 +178,7 @@ y tenemos el estado del sistema.
 
 38
 00:02:01,097 --> 00:02:03,060
-Aquí, mira, tengo una variable local
+Aquí mira, tengo una variable local
 C. de momento
 
 39
@@ -212,7 +212,7 @@ ejecutar.
 45
 00:02:24,537 --> 00:02:26,540
 Notad que aqui puedo realmente
-crear, si tengo quiero,
+crear, si quiero,
 
 46
 00:02:26,707 --> 00:02:28,720
@@ -221,12 +221,12 @@ puedo ejecutar esta
 
 47
 00:02:28.887 --> 00:02:32.340
-expresión porque ella es completa,
+expresión porque ella esta completa,
 
 48
 00:02:32,507 --> 00:02:34,190
 en el sentido que la classe
-Contador esta definida y luego
+Contador esta definida así que
 
 49
 00:02:34,357 --> 00:02:35,380
@@ -249,7 +249,7 @@ Over ¿qué significa?
 53
 00:02:42,077 --> 00:02:45,840
 Significa que quiero ejecutar la
-expresión sin ir al interior.
+expresión sin ir a su interior.
 
 54
 00:02:47,430 --> 00:02:52,150
@@ -279,7 +279,7 @@ count:
 59
 00:03:08,127 --> 00:03:11,600
 està implementado, en lugar de
-utilizar "Over" lo haría
+utilizar "Over" lo que haría
 
 60
 00:03:11,767 --> 00:03:12,520
@@ -355,12 +355,12 @@ haré clic en "Into",
 
 75
 00:03:56,190 --> 00:04:00,670
-decremento, voilà, tengo el
+decremento, ole, tengo el
 codigo de decrement y
 
 76
 00:04:01,310 --> 00:04:04,890
-habéis comprendido el principio de
+habéis comprendido el principio. De
 esta manera podré
 
 77
@@ -389,11 +389,11 @@ Así que ahora lo que también podría
 
 82
 00:04:22,917 --> 00:04:27,760
-hacer, és este trozo de codigo j
+hacer, és que este trozo de codigo j
 
 83
 00:04:27,927 --> 00:04:29,810
-lo habria podido ejecutar independientemente,
+lo podría ejecutar independientemente,
 esto quiere decir que que
 
 84
@@ -403,8 +403,8 @@ PlayGround como este,
 
 85
 00:04:33,017 --> 00:04:37,920
-y aquí realizar Debug it,
-me entrega el mismo resultado.
+y aquí realizar un Debug it,
+que me entrega el mismo resultado.
 
 86
 00:04:38,960 --> 00:04:40,630
@@ -443,7 +443,7 @@ y luego lo mismo en over.
 93
 00:05:08,810 --> 00:05:12,430
 Aquí, me entregarà el valor de la
-cascada eso és 
+cascada esto és
 
 94
 00:05:12,597 --> 00:05:13,440
