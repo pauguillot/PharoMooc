@@ -14,7 +14,7 @@ Eso es lo que veremos.
 
 4
 00:00:09,480 --> 00:00:12,580
-Llamo a Spotter. Imaginemos
+Llamo a Spotter. Imaginemos que
 busco los ejemplos,
 
 5
@@ -30,7 +30,7 @@ que estan definidos con
 7
 00:00:20,897 --> 00:00:23,430
 un pragma o qué sus métodos
-Se etiquetan con un pragma.
+se etiquetan con un pragma.
 
 8
 00:00:23,930 --> 00:00:26,330
@@ -39,7 +39,7 @@ pragmas que contienen la palabra
 
 9
 00:00:26,497 --> 00:00:29,440
-"ejemplo":hay
+"ejemplo" hay
 "example", "exampleWidget",
 
 10
@@ -50,7 +50,7 @@ pragmas que contienen la palabra
 11
 00:00:33,000 --> 00:00:36,070
 más precisos, puedo ver
-"exmple", así que todos esos
+"example", así que todos esos
 
 12
 00:00:36,237 --> 00:00:40,600
@@ -101,12 +101,12 @@ Morph". Y luego veo todos los
 22
 00:01:10,727 --> 00:01:14,260
 métodos que contienen
-la clase Morph o la
+la clase Morph o un
 
 23
 00:01:14,427 --> 00:01:19,150
 método de morph y puedo
-ver el código asociado a
+inspeccionar el código asociado a
 
 24
 00:01:19,317 --> 00:01:20,890
