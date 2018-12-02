@@ -1,30 +1,31 @@
 1
 00:00:02,560 --> 00:00:04,600
 En este video,
-Me gustaría explicar cómo
+Me gustaría explicaros cómo
 
 2
 00:00:04,767 --> 00:00:07,080
-el depurador funciona y
-como puedes usarlo
+funciona el depurador y
+como puedeis utilizarlo
 
 3
 00:00:07,247 --> 00:00:10,780
-para identificar errores
-y ejecutar expresiones,
+para identificar errores,
+ejecutar expresiones,
 
 4
 00:00:10,947 --> 00:00:12,710
-e interactuar con los objetos.
+y interactuar con los objetos.
 
 5
 00:00:14,080 --> 00:00:16,030
-Entonces quiero hacer una vez más
+Entonces quiero una vez
+mas hacer los
 
 6
 00:00:16,197 --> 00:00:18,820
-los ejercicios que habíamos completado
-y hecho juntos en el
+ejercicios que habíamos completado
+y hecho juntos del
 
 7
 00:00:19,000 --> 00:00:21,220
@@ -37,7 +38,7 @@ y
 
 9
 00:00:25,407 --> 00:00:26,320
-Veo que hay un paquete de contador.
+veo que hay un package Counter.
 
 10
 00:00:27,050 --> 00:00:29,010
@@ -45,7 +46,8 @@ También me permite explicar
 
 11
 00:00:29,177 --> 00:00:31,560
-esta función aquí. Para estar seguro
+esta funciónalidad aquí. 
+Para estar seguro de que
 
 12
 00:00:31,727 --> 00:00:35,300
@@ -54,7 +56,7 @@ Puedo navegar, es decir
 
 13
 00:00:35,560 --> 00:00:37,650
-que voy a mirar el
+que voy a mirar las
 Clases definidas en el paquete.
 
 14
@@ -69,82 +71,81 @@ MyCounter, que contiene
 
 16
 00:00:42,667 --> 00:00:44,830
-CounterTest, y si miro
+CounterTest, y que si miro
 todas las operaciones
 
 17
 00:00:45,000 --> 00:00:48,130
-de Counter, tengo el 4
-métodos que hemos definido
+de Counter, tengo los 4
+métodos que habiamos definido
 
 18
 00:00:48,297 --> 00:00:51,240
 juntos y de la misma manera
-para la prueba.
+para el test.
 
 19
 00:00:51,407 --> 00:00:53,180
-Entonces, ahora sé que esto es
-este paquete
+Así, que ahora sé que este es
+el paquete
 
 20
 00:00:53,347 --> 00:00:54,490
-Quiero cargar, voy a ir
-hacer carga
+que quiero cargar, voy a ir
+hacer Load.
 
 21
 00:00:58,300 --> 00:01:02,160
-Entonces, voy a navegar
-la clase Contador
+Así que ahora, voy a navegar
+en la clase Contador
 
 22
 00:01:08,200 --> 00:01:11,710
 Para la clase Counter, las pruebas
-son verdes, para que podamos comenzar.
+son verdes, así que podamos empezar.
 
 23
 00:01:15,000 --> 00:01:16,680
-Me gustaría mostrarte
+Así que me gustaría mostrarte
 
 24
 00:01:16,847 --> 00:01:19,470
-cómo podemos usar el depurador para
+cómo podemos utilizar el depurador para
 ejecutar una
 
 25
 00:01:19,637 --> 00:01:22,260
 expresión paso a paso,
-e ir o no en el
+e ir o no en las
 
 26
 00:01:22,427 --> 00:01:23,720
 expresiones que queremos
-ver en mas detalles
+ver más de cerca.
 
 27
 00:01:24,530 --> 00:01:26,800
-Para hacer esto, tomo el
+Para hacer esto, tomaré el
 TestDecrement
 
 28
 00:01:27,000 --> 00:01:30,300
-como ejemplo, hago
+como ejemplo, haré
 DebugTest.
 
 29
 00:01:30,467 --> 00:01:35,420
-Prueba de depuración, aquí está,
-una vez más
+Debug test, aquí,
+así que una vez más,
 
 30
 00:01:35,587 --> 00:01:36,700
-¿Qué hace el depurador?
-¿Muéstrame?
+¿Qué me muestra el depurador?
 
 31
 00:01:36,867 --> 00:01:38,880
-El depurador muestra
-la pila de ejecución
+El depurador me muestra
+la pila de ejecución.
 
 32
 00:01:39,047 --> 00:01:41,830
@@ -158,42 +159,42 @@ al principio nosotros
 
 34
 00:01:47,027 --> 00:01:50,160
-ejecutó el método Run,
-Deshacer, muchas cosas como esta.
+hemos ejectuado el método Run,
+Undo, muchas cosas como esta.
 
 35
 00:01:50,327 --> 00:01:53,240
-Por el momento, el sistema
-Por eso no nos importa.
+De momento, és el sistema que lo hace
+así que no le damos más importancia.
 
 36
 00:01:54,530 --> 00:01:59,300
-Aquí vemos el código ejecutado
-en la pila
+Aquí, vemos el código que se
+está ejecutado en la pila
 
 37
 00:01:59,730 --> 00:02:00,930
-y el estado del sistema.
+y tenemos el estado del sistema.
 
 38
 00:02:01,097 --> 00:02:03,060
 Aquí, mira, tengo una variable local
-C. por el momento
+C. de momento
 
 39
 00:02:03,227 --> 00:02:05,480
-no se ha asignado,
-así que hay cero.
+sin asignar,
+así que hay un nil.
 
 40
 00:02:06,150 --> 00:02:08,800
-Y aquí veo ese Ser
+Y aquí puedo ver que Self
 es de hecho una clase de
 
 41
 00:02:09,380 --> 00:02:13,770
 CounterTest, este es el
-método CounterTest >>
+método CounterTest>>
 
 42
 00:02:14,880 --> 00:02:15,580
@@ -201,126 +202,127 @@ método CounterTest >>
 
 43
 00:02:16,690 --> 00:02:21,420
-Cuando hago clic en "sobre" aquí,
+Lo que hago cuando hago Over, aqui
 
 44
 00:02:21,587 --> 00:02:24,370
-Entro en la primera expresión
+entro en la primera expresión
 ejecutar.
 
 45
 00:02:24,537 --> 00:02:26,540
-Tenga en cuenta que,
-Si yo quiero,
+Notad que aqui puedo realmente
+crear, si tengo quiero,
 
 46
 00:02:26,707 --> 00:02:28,720
-Puedo crear de inmediato, puedo
-ejecute esto
+puedo crear, inmediatamente,
+puedo ejecutar esta 
 
 47
 00:02:28.887 --> 00:02:32.340
-expresión porque es completa,
+expresión porque ella es completa,
 
 48
 00:02:32,507 --> 00:02:34,190
-la clase Contador se define
-y yo puedo
+en el sentido que la classe
+Contador esta definida y luego
 
 49
 00:02:34,357 --> 00:02:35,380
-envíale el mensaje nuevo.
+puedo enviarle el mensaje new.
 
 50
 00:02:36,120 --> 00:02:38,790
-Aquí veo que C es siempre así,
+Aquí veo que C continua así,
 asi que
 
 51
 00:02:38,957 --> 00:02:40,650
-ahora voy a decir que quiero
-"Encima".
+ahora voy a decirle que quiero
+"Over".
 
 52
 00:02:40,817 --> 00:02:41,910
-Over:¿qué significa?
+Over ¿qué significa?
 
 53
 00:02:42,077 --> 00:02:45,840
-Significa que quiero ejecutar el
-expresión sin entrar dentro.
+Significa que quiero ejecutar la
+expresión sin ir al interior.
 
 54
 00:02:47,430 --> 00:02:52,150
 Aquí estoy en la segunda expresión
-que es un
+que es una
 
 55
 00:02:52,317 --> 00:02:55,400
-Asignación y haré clic en
+asignación y haré clic en
 "Over" una vez más y
 
 56
 00:02:55,567 --> 00:02:59,940
 de repente mi variable
-C puntos en un contador
+C apunta bien a un contador
 
 57
 00:03:00,340 --> 00:03:04,300
-que la puedo ver Aquí por el momento
-el valor del contador es cero.
+que puedo ver aquí, así que de
+momento el valor del contador es nil.
 
 58
 00:03:04,467 --> 00:03:07,960
-Si quisiera saber cómo
-contar:
+Ahora, si quisiera saber cómo
+count:
 
 59
 00:03:08,127 --> 00:03:11,600
-se implementa, en lugar de
-usando "Over" lo haría
+està implementado, en lugar de
+utilizar "Over" lo haría
 
 60
 00:03:11,767 --> 00:03:12,520
-use "Into".
+és utilizar "Into".
 
 61
 00:03:12,687 --> 00:03:16,140
-"En" me hará entrar
-el método,
+"Into" ira al interior del 
+metodo,
 
 62
 00:03:17,510 --> 00:03:20,050
-Me gusta esto. Aquí puedo ver
+así. Aquí puedo ver
 la definición del método y
 
 63
 00:03:20,217 --> 00:03:22,160
 una vez más, puedo interactuar
-con los argumentos
+con los argumentos.
 
 64
 00:03:22,580 --> 00:03:26,350
-Aquí tengo un intérprete, si escribo
-Imprimir, puedo ver
+Aquí tengo anInteger, si escribo
+print, puedo ver
 
 65
 00:03:26,517 --> 00:03:28,230
-mira que tengo 7 y de todos modos
-aninteger
+que que tengo un 7 y de todos modos
+anInteger
 
 66
 00:03:28,397 --> 00:03:32,930
-está aquí y cuenta, por ahora,
+lo tengo aqui y count de momento,
+puedo ver, que és
 
 67
 00:03:33,097 --> 00:03:35,460
 la variable de instancia
-su valor es nulo
+y su valor és nil.
 
 68
 00:03:35,627 --> 00:03:37,210
-También se muestra allí.
+También se muestra aquí.
 
 69
 00:03:38,750 --> 00:03:41,530
@@ -329,94 +331,95 @@ porque
 
 70
 00:03:41,697 --> 00:03:44,450
-Quiero decir que quiero saltar
-eso.
+quiero decir que quiero saltar
+por encima.
 
 71
 00:03:44,617 --> 00:03:46,360
-Quiero continuar la expresion
-ejecución.
+Quiero continuar la ejecución
+de esta expresión.
 
 72
 00:03:49,740 --> 00:03:50,373
-Por lo tanto, allí.
+Aquí.
 
 73
 00:03:51,860 --> 00:03:53,370
-Ahora imaginemos que quiero
-entrar en decremento,
+Ahora imaginemos que quisiera
+entrar en decrement,
 
 74
 00:03:53,537 --> 00:03:55,690
-Haré lo mismo,
-Haré clic en "Into",
+haré lo mismo,
+haré clic en "Into",
 
 75
 00:03:56,190 --> 00:04:00,670
-decremento, tengo decremento
-codigo y,
+decremento, voilà, tengo el
+codigo de decrement y
 
 76
 00:04:01,310 --> 00:04:04,890
-usted entendió el principio,
-de esta manera puedo hacer
+habéis comprendido el principio de
+esta manera podré
 
 77
 00:04:05,057 --> 00:04:07,190
-La expresión paso a paso.
+ejecutar paso a paso la expresion.
 
 78
 00:04:11,230 --> 00:04:13,280
-Entonces, ahora, ¿qué hace?
-¿Habilita hacer?
+Así que ahora Proceed,
+¿que permite hacer esto?
 
 79
 00:04:13,447 --> 00:04:15,950
-Permite decir:"de
+permite decir: a partir de
 este punto continúa
 
 80
 00:04:16,117 --> 00:04:18,310
-como si nada hubiera pasado
+como si nada hubiera pasado.
 Entonces eso es lo que voy a hacer
 
 81
 00:04:18,750 --> 00:04:22,750
 y mi prueba será verde.
-Así que ahora también podría
+Así que ahora lo que también podría
 
 82
 00:04:22,917 --> 00:04:27,760
-ejecute independientemente esto
+hacer, és este trozo de codigo j
 
 83
 00:04:27,927 --> 00:04:29,810
-poco de código, esto significa
+lo habria podido ejecutar independientemente,
+esto quiere decir que que
 
 84
 00:04:30,000 --> 00:04:32,850
-Puedo ponerlo en un patio de recreo
-Me gusta esto,
+puedo muy bien ponerlo en un 
+PlayGround como este,
 
 85
 00:04:33,017 --> 00:04:37,920
-y aquí tengo Debug,
-Yo recibo lo mismo
+y aquí realizar Debug it,
+me entrega el mismo resultado.
 
 86
 00:04:38,960 --> 00:04:40,630
-En este caso se compila
+En este caso se compila de forma
 un poco
 
 87
 00:04:40,797 --> 00:04:43,930
-diferente pero tengo
-exactamente lo mismo
+diferente pero tendre
+exactamente las mismas
 
 88
 00:04:44,097 --> 00:04:47,710
-funciones, con mi valor de contador
-que es 7,
+funcionalidades, con mi contador
+que vale 7,
 
 89
 00:04:49,550 --> 00:04:52,080
@@ -430,18 +433,18 @@ por ejemplo,
 
 91
 00:04:57,960 --> 00:04:59,850
-Puedo ir en decremento, "Over",
-"Encima",
+puedo ir en decrement,
+over, over,
 
 92
 00:05:03,030 --> 00:05:05,320
-y lo mismo en "Over".
+y luego lo mismo en over.
 
 93
 00:05:08,810 --> 00:05:12,430
-Entonces aquí vuelve el valor de cascada,
-por lo que regresa
+Aquí, me entregarà el valor de la
+cascada eso és 
 
 94
 00:05:12,597 --> 00:05:13,440
-el contador C
+me mostrará el contador C
