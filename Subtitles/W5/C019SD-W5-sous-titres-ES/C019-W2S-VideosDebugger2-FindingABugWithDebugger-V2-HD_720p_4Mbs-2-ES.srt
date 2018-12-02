@@ -39,7 +39,7 @@ de 9 en lugar de 5.
 
 9
 00:00:30,717 --> 00:00:33,540
-Entonces me muestra que realment
+Entonces me muestra que realmente
 existe un error entre estas
 
 10
@@ -49,11 +49,11 @@ el contador se ha realmente creado.
 
 11
 00:00:36,690 --> 00:00:38,520
-Aquí me gustaría realmente ejecutar
+Aquí me gustaría ejecutar
 
 12
 00:00:38,800 --> 00:00:42,930
-el código y para pararme justo después
+el código y pararme justo después
 
 13
 00:00:43,630 --> 00:00:46,200
@@ -81,7 +81,7 @@ que se detiene en el método halt.
 
 18
 00:01:00,580 --> 00:01:01,710
-Entonces, ahora puedo hacer clic en "Over".
+Así que, ahora puedo hacer clic en "Over".
 
 19
 00:01:02,370 --> 00:01:04,850
@@ -89,13 +89,13 @@ Puedo decidir entrar
 
 20
 00:01:05,017 --> 00:01:07,110
-el método de count, eso es
+en el método de count, que es
 lo que hago,
 
 21
 00:01:07,277 --> 00:01:09,790
 puedo ver que count és nil y que
-Integer vale 7 
+Integer vale 7,
 
 22
 00:01:13,500 --> 00:01:17,910
@@ -132,8 +132,8 @@ Y ahora puedo hacer clic en "Proceed".
 29
 00:01:42,620 --> 00:01:47,530
 Cuando hago clic en "Proceed" se me 
-quedara el depurador, que retiro,
+queda el depurador, que cierro,
 
 30
 00:01:47,697 --> 00:01:51,490
-hago clic en Proceed y my Test es verde.
+hago clic en Proceed y mi Test es verde.
