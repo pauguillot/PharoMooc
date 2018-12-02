@@ -106,7 +106,7 @@ la clase Morph o un
 23
 00:01:14,427 --> 00:01:19,150
 método de morph y puedo
-inspeccionar el código asociado a
+ver el código asociado a
 
 24
 00:01:19,317 --> 00:01:20,890
