@@ -42,8 +42,8 @@ así que tendremos estos objetos.
 
 10
 00:00:35,030 --> 00:00:39,610
-Echemos un vistazo. Si lo hago
-"Inspeccionar",
+Echemos un vistazo. Si hago
+"Inspect",
 
 11
 00:00:40,030 --> 00:00:41,240
@@ -68,43 +68,44 @@ características muy interesantes
 
 16
 00:00:53,307 --> 00:00:56,740
-Comencemos a mirar la pestaña
+Comencemos por mirar la pestaña
 
 17
 00:00:58,330 --> 00:00:59,640
-llamado "crudo".
+llamado "Raw",
+que significa crudo.
 
 18
 00:00:59,807 --> 00:01:03,880
-La pestaña "Raw" es la anterior
-inspector. Que
+La pestaña "Raw" es el anterior
+inspector. 
 
 19
 00:01:04,047 --> 00:01:04,850
-¿muestra?
+¿Que va a mostrarme?
 
 20
 00:01:05,017 --> 00:01:08,000
-Muestra los datos del objeto, el
-variables de instancia de objeto
+Muestra los datos del objeto, las
+variables de instancia del objeto
 
 21
 00:01:08,167 --> 00:01:09,710
-tal como se define en la clase.
+tal como se han definido en la clase.
 
 22
 00:01:10,420 --> 00:01:12,480
-Puedo interactuar con eso.
+Puedo interactuar con esto.
 
 23
 00:01:12,647 --> 00:01:15,930
 Puedo, por ejemplo,
-pregunte por todas las entradas.
+preguntar por todas las entradas.
 
 24
 00:01:16,530 --> 00:01:20,940
 Aquí obtengo todas las entradas,
-o dame todo el
+o dame todos los
 
 25
 00:01:21,107 --> 00:01:25,850
@@ -113,12 +114,12 @@ aquí obtengo todos los directorios.
 
 26
 00:01:27,880 --> 00:01:31,380
-Si observamos la clase de objeto,
-si yo hago yo
+Si observamos la clase de este 
+objeto, si yo hago "self
 
 27
 00:01:31,547 --> 00:01:36,240
-navegar ", ¿qué veo?
+browse", ¿qué veo?
 
 28
 00:01:36,407 --> 00:01:40,430
@@ -126,8 +127,8 @@ Esta vista me muestra los valores
 
 29
 00:01:41,250 --> 00:01:44,450
-para el objeto, la instancia
-variables que
+para el objeto, las variables de
+instancia que
 
 30
 00:01:44,617 --> 00:01:46,100
@@ -136,12 +137,12 @@ de esa manera.
 
 31
 00:01:47,520 --> 00:01:49,820
-Me permite mirar dentro.
+Me permite mirar en el interior.
 
 32
 00:01:50,000 --> 00:01:54,650
 Por ejemplo, aquí puedo ver
-que el "camino" es en realidad
+que el camino "Path" esta en realidad
 
 33
 00:01:55,350 --> 00:01:59,530
@@ -155,31 +156,32 @@ y
 
 35
 00:02:03,827 --> 00:02:04,800
-Puedo explorar dentro.
+Puedo explorar el interior.
 
 36
 00:02:05,000 --> 00:02:07,550
-Si hago esto, en realidad soy
+Si hago esto, en realidad
 voy a mirar
 
 37
 00:02:07,717 --> 00:02:09,780
-la secuencia de usuario y ese tipo de cosas.
+la secuencia de usuario
+y ese tipo de cosas.
 
 38
 00:02:09,947 --> 00:02:13,280
-Aquí básicamente viole
-el encapsulado
+Aquí básicamente estoy violando
+el encapsulado.
 
 39
 00:02:15,210 --> 00:02:18,250
-El sistema mirará
-el comportamiento introspectivo,
+El sistema mirará utilizando
+funcionalidades introspectivas,
 
 40
 00:02:18,417 --> 00:02:21,290
-me mostrará los campos
-valores.
+me mostrará los valores de
+mis campos.
 
 41
 00:02:23,000 --> 00:02:23,920
@@ -197,8 +199,8 @@ mostrar al usuario
 
 44
 00:02:34,150 --> 00:02:38,820
-diferentes facetas de cómo
-es representado.
+diferentes formas de como puede
+ser representado.
 
 45
 00:02:40,700 --> 00:02:44,880
@@ -208,11 +210,11 @@ tiene la faceta en bruto.
 46
 00:02:45,300 --> 00:02:47,900
 También está la faceta Meta,
-cual es
+la que
 
 47
 00:02:48,067 --> 00:02:49,310
-lo que permite navegar por la clase.
+permite navegar por la clase.
 
 48
 00:02:49,477 --> 00:02:51,380
@@ -222,11 +224,11 @@ por ejemplo, así.
 49
 00:02:52,150 --> 00:02:55,330
 Normalmente es solo útil
-cuando estás en la navegación
+cuando estás en el flujo
 
 50
 00:02:55,590 --> 00:03:00,440
-flujo, cuando necesitas saber
+de navegación, cuando necesitas saber
 directamente sin abrir
 
 51
@@ -244,18 +246,18 @@ Aquí, por ejemplo,
 
 54
 00:03:08,257 --> 00:03:11,640
-el inspector sabiendo eso
+el inspector sabiendo que
 tenemos una referencia,
 
 55
 00:03:13,470 --> 00:03:17,730
-un directorio, muestra todo
-contenido en el directorio
+un directorio, nos muestra todo
+su contenido
 
 56
 00:03:17,900 --> 00:03:19,690
-Es lo que te mostré allí.
-cuando hice esto
+Es lo que os mostré aquí,
+cuando hice esto.
 
 57
 00:03:20,270 --> 00:03:21,960
@@ -267,7 +269,7 @@ Ahora podemos mirar dentro
 
 59
 00:03:31,307 --> 00:03:32,180
-este sistema de archivos
+de este sistema de archivos
 
 60
 00:03:32,347 --> 00:03:36,090
@@ -276,31 +278,31 @@ de Json en Pharo,
 
 61
 00:03:36,460 --> 00:03:40,920
-una vez más recibo un
+una vez más recibo una
 
 62
 00:03:41,087 --> 00:03:45,780
-referencia dentro del archivo
-sistema que es
+referencia dentro del sistema
+de archivos que es
 
 63
 00:03:46,280 --> 00:03:51,110
-este archivo aquí,
-Obtengo un acceso en
+este archivo, aquí,
+Obtengo un acceso al
 
 64
 00:03:51,277 --> 00:03:52,500
-el archivo llamado
+archivo llamado
 
 65
 00:03:52,667 --> 00:03:57,270
 Meta-inf.ston. Y ahora el
-inspector es
+inspector que es
 
 66
 00:03:57,437 --> 00:04:00,390
-inteligente y me dice "lo haré"
-mostrarle su contenido si lo desea ".
+inteligente y me dice, te mostraré
+su contenido si quieres.
 
 67
 00:04:01,000 --> 00:04:02,940
@@ -320,11 +322,11 @@ navegar por las subcarpetas.
 70
 00:04:11,237 --> 00:04:14,950
 Aquí, si elijo
-paquete de efectivo, este es el lugar donde
+package-cash, este es el lugar donde
 
 71
 00:04:15,117 --> 00:04:16,180
-Los paquetes se almacenan de manera predeterminada.
+los paquetes se almacenan de manera predeterminada.
 
 72
 00:04:16,347 --> 00:04:19,160
@@ -337,28 +339,30 @@ pero me muestra su contenido.
 
 74
 00:04:22,540 --> 00:04:26,880
-Si miro datos, puedo ver
+Si miro en Data, puedo ver
 
 75
 00:04:30,210 --> 00:04:33,740
-un png Si hago clic en
+un png. Si hago clic en
 este png, voy a navegar.
 
 76
 00:04:34,040 --> 00:04:36,760
-Aquí, verá que hay otras pestañas.
+Aquí, podrà ver que hay otras pestañas.
 
 77
 00:04:38,030 --> 00:04:38,680
+Existe una pestaña Contenido.
 
 78
 00:04:39,500 --> 00:04:41,540
 Si hago clic en Contenido,
+que veo, veo
 
 79
 00:04:41,707 --> 00:04:44,550
-el png almacenado en un binario
-formato en mi disco
+el png almacenado en formato
+binario en mi disco
 
 80
 00:04:47,300 --> 00:04:50,460
@@ -367,7 +371,7 @@ el inspector me muestra una vista previa
 
 81
 00:04:50,627 --> 00:04:53,570
-de lo que contiene el PNG.
+de su contenido.
 
 82
 00:04:53,737 --> 00:04:55,140
@@ -381,7 +385,7 @@ diferentes paneles.
 84
 00:04:58,677 --> 00:05:00,740
 Aquí hay dos, no
-saber exactamente por qué
+sé exactamente por qué
 
 85
 00:05:00,907 --> 00:05:03,150
@@ -390,8 +394,8 @@ resaltado de sintaxis y el otro
 
 86
 00:05:03,317 --> 00:05:05,400
-uno sin, mostrando el
-contenido una vez más
+sin, mostrando el
+contenido una vez más.
 
 87
 00:05:06,050 --> 00:05:09,470
@@ -400,23 +404,23 @@ es aún mejor porque cuando yo
 
 88
 00:05:09,637 --> 00:05:14,520
-en él, el contenido zip es
-codificado y
+cliqueo en él, el contenido del zip
+es codificado y
 
 89
 00:05:14,687 --> 00:05:19,100
 comprimido pero los elementos,
-en este punto, son
+en este momento, son
 
 90
 00:05:19,267 --> 00:05:22,920
-interpretado. Aquí puedo
+interpretados. Aquí puedo
 navegar directamente
 
 91
 00:05:24,240 --> 00:05:26,080
-mis objetos y en el mismo
-manera recursiva
+mis objetos y de la misma
+forma recursiva.
 
 92
 00:05:29,730 --> 00:05:34,300
@@ -430,33 +434,33 @@ para interactuar
 
 94
 00:05:37,567 --> 00:05:42,160
-Precisamente con los objetos,
+con los objetos de forma precisa,
 además como cada objeto
 
 95
 00:05:42,327 --> 00:05:45,430
-determina una representación
+tiene definida una representación
 o un conjunto de
 
 96
 00:05:45,597 --> 00:05:48,840
 representaciones significativas
-para nosotros
+que nos permitirá
 
 97
 00:05:49,007 --> 00:05:51,270
 interactuar con él y ser
-el más eficiente,
+más eficientes.
 
 98
 00:05:51,550 --> 00:05:53,820
-Esto permite construir muy rápido.
+Esto nos permite construir muy rapido.
 pequeñas herramientas
 
 99
 00:05:54,000 --> 00:05:56,940
-Aquí tienes un pequeño sistema de archivos
-navegador, ¿por qué?
+Aquí tienes un pequeño navegadors
+de archivos, ¿para qué?
 
 100
 00:05:57,107 --> 00:05:59,270
@@ -466,8 +470,8 @@ inspeccionar
 101
 00:05:59,510 --> 00:06:01,890
 el sistema de archivos, a veces usted
-quieren saber
+quiere saber
 
 102
 00:06:02,057 --> 00:06:02,840
-exactamente lo que está inspeccionando.
+exactamente que está inspeccionando.
