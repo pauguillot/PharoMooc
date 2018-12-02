@@ -1,7 +1,7 @@
 1
 00:00:02,030 --> 00:00:03,770
-En este video, lo haré
-te muestro una muy linda
+En este video, me gustaria
+mostrarle una muy linda
 
 2
 00:00:03,937 --> 00:00:06,700
@@ -20,24 +20,25 @@ con ellos de una manera viva.
 
 5
 00:00:15,250 --> 00:00:17,690
-Intentemos en el sistema de archivos.
+Hagamos una prueba 
+en el sistema de archivos.
 
 6
 00:00:19,520 --> 00:00:21,450
-Por ejemplo, si hago "Sistema de archivos
+Por ejemplo, si hago "File system
 
 7
 00:00:24,330 --> 00:00:29,130
-directorio de trabajo ", lo haré
+working directory",  esto me
 
 8
 00:00:29,297 --> 00:00:32,190
-obtener todos los archivos que son, para
-instancia, en la raíz de mi imagen,
+entregará todos los ficheros, que 
+estan en la raiz de mi imagen,
 
 9
 00:00:32,357 --> 00:00:33,870
-así que obtendremos todos esos archivos.
+así que tendremos estos objetos.
 
 10
 00:00:35,030 --> 00:00:39,610
