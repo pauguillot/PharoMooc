@@ -1,12 +1,12 @@
 1
 00:00:02,090 --> 00:00:04,310
 En esta sesión,
-Me gustaría completar el
+me gustaría completar sobre
 
 2
 00:00:04,477 --> 00:00:08,230
-sobre el depurador y
-Mostrar cómo detectar un error.
+el depurador y
+mostrar cómo detectar un error.
 
 3
 00:00:08,397 --> 00:00:12,440
@@ -20,7 +20,7 @@ y nos equivocamos.
 5
 00:00:14,660 --> 00:00:17,950
 Aquí, agregué una adición
-de una substracción
+en lugar de una substracción
 
 6
 00:00:19,160 --> 00:00:22,000
@@ -29,59 +29,59 @@ TestDecrement devuelve falso.
 
 7
 00:00:22,157 --> 00:00:26,440
-Lo ejecuto, miro el
-ejecución y aviso
+Lo ejecuto, miro la
+ejecución y me doy
 
 8
 00:00:26,607 --> 00:00:30,550
-que de hecho cuenta regresiones
-9 en lugar de 5.
+cuenta que me entrega un resultado
+de 9 en lugar de 5.
 
 9
 00:00:30,717 --> 00:00:33,540
-Entonces muestra que sí tengo
-un error entre estos
+Entonces me muestra que realment
+existe un error entre estas
 
 10
 00:00:33,707 --> 00:00:36,120
-expresiones, si considero que
-el contador ha sido creado.
+expresiones, considerando que
+el contador se ha realmente creado.
 
 11
 00:00:36,690 --> 00:00:38,520
-Aquí me gustaría ejecutar
+Aquí me gustaría realmente ejecutar
 
 12
 00:00:38,800 --> 00:00:42,930
-el código y parar justo después
+el código y para pararme justo después
 
 13
 00:00:43,630 --> 00:00:46,200
-la creación del contador para ver
-que metodos
+de la creación del contador para
+poder ver cuales són los metodos
 
 14
 00:00:46,720 --> 00:00:47,840
-tener un problema.
+que tienen un problema.
 
 15
 00:00:48,650 --> 00:00:51,400
-Agrego el alto de Self, este es uno de
+Agrego Self halt, esta es una de
 las formas de proponer un
 
 16
 00:00:51,567 --> 00:00:55,040
-Punto de quiebre en Pharo. Compilo
+break point en Pharo. Compilo
 nuevamente el método, hago
 
 17
 00:00:55,207 --> 00:00:59,630
-Proceder, se ejecuta el código
-y se detiene en el método de alto.
+Proceed, se ejecuta el código
+que se detiene en el método halt.
 
 18
 00:01:00,580 --> 00:01:01,710
-Entonces, ahora hago clic en "Over".
+Entonces, ahora puedo hacer clic en "Over".
 
 19
 00:01:02,370 --> 00:01:04,850
@@ -89,50 +89,51 @@ Puedo decidir entrar
 
 20
 00:01:05,017 --> 00:01:07,110
-el método de conteo, eso es
-lo que hago, por ejemplo,
+el método de count, eso es
+lo que hago,
 
 21
 00:01:07,277 --> 00:01:09,790
-Puedo ver que el valor de conteo es
-nil y el valor entero es 7
+puedo ver que count és nil y que
+Integer vale 7 
 
 22
 00:01:13,500 --> 00:01:17,910
-como aquí, y allí puedo hacer clic
-en "sobre"
+como aquí, y allí podre volver ha
+hacer Over.
 
 23
 00:01:20,770 --> 00:01:22,580
-Regreso, tengo disminución.
+Regreso, tengo un decrement.
 
 24
 00:01:22,747 --> 00:01:25,730
-Voy a mirar dentro
+me digo que voy a mirar en su
+interior
 
 25
 00:01:25,897 --> 00:01:27,540
-porque el problema debe estar allí,
-y aquí
+porque és aqui donde debe estar
+el problema, y aqui
 
 26
 00:01:27,707 --> 00:01:29,680
-Puedo ver que el decremento es
-igual a -1
+puedo ver que decrement és igual a 
+menos 1.
 
 27
 00:01:33,070 --> 00:01:35,680
-Lo modifico, "Sobre".
+Lo modifico, Over.
 
 28
 00:01:39,170 --> 00:01:41,000
-Y ahora puedo hacer clic en "Proceder".
+Y ahora puedo hacer clic en "Proceed".
 
 29
 00:01:42,620 --> 00:01:47,530
-Cuando hago clic en "Proceder" a la depuración
-se deja, lo retiro,
+Cuando hago clic en "Proceed" se me 
+quedara el depurador, que retiro,
 
 30
 00:01:47,697 --> 00:01:51,490
-Hago clic en "Continuar" y mi prueba es verde.
+hago clic en Proceed y my Test es verde.
