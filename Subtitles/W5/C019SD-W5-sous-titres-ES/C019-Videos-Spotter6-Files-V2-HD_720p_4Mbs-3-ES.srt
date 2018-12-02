@@ -1,12 +1,12 @@
 1
 00:00:01,120 --> 00:00:03,140
 En este video, me gustaría
-para mostrarte un
+mostrarte
 
 2
 00:00:03,307 --> 00:00:05,060
-lado oculto de Spotter que es
-muy agradable:
+una faceta desconocida de Spotter
+que és realmente excellente, és
 
 3
 00:00:05,227 --> 00:00:08,650
@@ -20,62 +20,63 @@ ahora escribo
 
 5
 00:00:13,840 --> 00:00:18,190
-./ #files, por ejemplo, lo hará
-mostrar los archivos
+#files, por ejemplo me mostrará
+todos los ficheros que estan
 
 6
 00:00:18,357 --> 00:00:19,540
-en la raiz.
+en mi raiz.
 
 7
 00:00:19,930 --> 00:00:23,440
-Entonces puedo ver los archivos,
-solo si puede
+Así que puedo ver los
+ficheros, en tanto que puedan
 
 8
 00:00:23,607 --> 00:00:27,460
-Di algo…
-Entonces ves que yo
+decirme alguna cosa,
+así que podeis ver que puedo
 
 9
 00:00:27,627 --> 00:00:28,430
-Puede acceder a mis archivos.
+acceder a mis archivos.
 
 10
 00:00:29,250 --> 00:00:30,780
-Ahora puedo hacer algo incluso
+Ahora lo que quiero hacer
+que és inclusó más
 
 11
 00:00:30,947 --> 00:00:33,590
-mejor, también puedo visitar
-los #Directorios.
+guapo, és que tambien puedo
+visitar los #Directories.
 
 12
 00:00:34,420 --> 00:00:38,330
-Aquí, por ejemplo, ves que tengo
-El paquete de caché con mis informaciones.
+Aquí, por ejemplo, podeis ver que tengo
+el paquete de caché con mis informaciones.
 
 13
 00:00:39,560 --> 00:00:43,120
-Aquí se trata de un formato comprimido, que
-no es
+Aquí se trata de un formato comprimido,
+que
 
 14
 00:00:43,287 --> 00:00:45,670
-realmente reconocido directamente por
-el sistema.
+el sistema no reconoce.
 
 15
 00:00:46,010 --> 00:00:48,200
-Ahora si entro,
+Ahora lo que puedo hacer
+és que si voy 
 
 16
 00:00:48,367 --> 00:00:51,680
-Puedo elegir, navegar,
+aqui, puedo elegir, navego,
 
 17
 00:00:53,380 --> 00:00:54,860
-y allí, cuando tengo
+y aquí, cuando tengo
 
 18
 00:00:55,027 --> 00:00:57,220
@@ -84,7 +85,7 @@ es lo suficientemente inteligente
 
 19
 00:00:57,387 --> 00:00:58,020
-descubrir que esto es
+interpretar que esto es
 
 20
 00:00:58,187 --> 00:00:59,630
@@ -101,23 +102,23 @@ representando el
 
 23
 00:01:01,857 --> 00:01:03,650
-Del mismo modo,
-tienes un guion
+De la misma manera
+teneis un script.
 
 24
 00:01:03,817 --> 00:01:08,120
-Lo que es particularmente bueno es que
-si usted tiene
+Lo que és particularmente guapo,
+és que si teneis
 
 25
 00:01:08,287 --> 00:01:13,220
-un Zip, puede ir directamente y
-mira dentro de ella
+un Zip, puede ir directamente a
+mirar en su interior.
 
 26
 00:01:13,940 --> 00:01:15,180
-Aquí es lo que estoy haciendo,
-yo soy
+Aquí es lo que estoy mirando de
+hacer, estoy a punto de
 
 27
 00:01:15,347 --> 00:01:17,460
@@ -130,8 +131,8 @@ recursivo, puedo ver mi
 
 29
 00:01:19,497 --> 00:01:22,240
-.png como si los estuviera explorando.
+.png como si lo estuviera explorando.
 
 30
 00:01:23,310 --> 00:01:25,020
-Por lo que es realmente lindo
+Así que és realmente muy guapo.
