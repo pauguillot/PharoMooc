@@ -1,7 +1,7 @@
 1
 00:00:01,120 --> 00:00:03,140
 En este video, me gustaría
-mostrarte
+mostrarle
 
 2
 00:00:03,307 --> 00:00:05,060
@@ -10,7 +10,7 @@ que és realmente excellente, és
 
 3
 00:00:05,227 --> 00:00:08,650
-cómo podemos usar Spotter
+cómo podemos utilizar Spotter
 para navegar en el sistema de archivos.
 
 4
